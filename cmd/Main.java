@@ -135,6 +135,14 @@ public class Main
 		while (dirs==null && out==null)
 		{
 			String path = JOptionPane.showInputDialog("Enter a valid path to a folder with AMBs containing VAGs:");
+			if(path == null)
+			{
+				return "Invalid input";
+			}
+			if(path.matches("\\d+"))
+			{
+				return "Invalid Input";
+			}
 
 			File tmp = new File(path);
 			if (tmp.isDirectory())
