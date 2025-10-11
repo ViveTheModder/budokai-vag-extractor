@@ -2,6 +2,10 @@
  A modding tool that can extract VAG files from AMB files that belong to the Budokai games. 
 
 # Usage
+# Video Demonstration (CLI & GUI, new)
+https://github.com/user-attachments/assets/84ff4f65-0a04-4343-8903-1f4dd0f10477
+
+## Screenshots (CLI-only, old)
 For this test, AMB files from Infinite World were used.
 
 <img width="677" height="342" alt="image" src="https://github.com/user-attachments/assets/fe436688-bb8f-4e7c-8ad4-d4ccac736dc6" />
